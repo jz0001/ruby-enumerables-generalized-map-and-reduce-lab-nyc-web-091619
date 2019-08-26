@@ -10,3 +10,8 @@ end
 def reduce(array,starting_point=nil)
   if starting_point
     total=starting_point
+  else
+    total=array[0]
+  end
+  
+  total=total+array[index]
