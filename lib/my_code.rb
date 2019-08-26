@@ -7,7 +7,6 @@ def map(array)
   new_array
 end
 
-def reduce(array,starting_point=0)
-  new_array=[]
-  array.length.times {|index|
-  
+def reduce(array,starting_point=nil)
+  if starting_point
+    
