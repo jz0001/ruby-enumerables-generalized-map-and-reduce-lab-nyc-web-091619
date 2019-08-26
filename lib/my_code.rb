@@ -13,5 +13,5 @@ def reduce(array,starting_point=nil)
   else
     total=array[0]
   end
-  
-  total=total+array[index]
+  array.length.times {|index|
+  yieldtotal=total+array[index]
