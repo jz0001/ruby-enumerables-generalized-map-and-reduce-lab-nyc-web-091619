@@ -4,3 +4,6 @@ def map(array)
   array.length.times {|index|
     new_array[index]=yield(array[index])
   }
+  new_array
+end
+
