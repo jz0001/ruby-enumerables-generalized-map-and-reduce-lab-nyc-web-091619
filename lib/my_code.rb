@@ -9,4 +9,4 @@ end
 
 def reduce(array,starting_point=nil)
   if starting_point
-    total=
+    total=starting_point
