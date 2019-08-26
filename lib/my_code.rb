@@ -7,5 +7,6 @@ def map(array)
   new_array
 end
 
-def reduce(array)
+def reduce(array,starting_point=0)
   new_array=[]
+  
