@@ -9,4 +9,5 @@ end
 
 def reduce(array,starting_point=0)
   new_array=[]
+  array.length.times {|index|
   
