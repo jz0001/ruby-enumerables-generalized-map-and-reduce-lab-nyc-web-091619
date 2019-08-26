@@ -19,3 +19,4 @@ def reduce(array,starting_point=nil)
     total=yield(total,array[index])
     total
   end
+  end
